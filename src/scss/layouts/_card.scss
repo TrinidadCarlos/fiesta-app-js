@@ -1,0 +1,62 @@
+.contenedor-card{
+    display: grid;
+    gap: 1rem;
+    grid-auto-flow: dense;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+}
+
+.card{
+    width: 100%;
+    height: fit-content;
+    padding: .5rem;
+    border-radius: .3rem;
+    background-color: $azul-oscuro;
+    color: $claro;
+    
+    &-titulo{
+        text-transform: capitalize;
+        text-align: center;
+        color: $azul-primario;
+
+    }
+
+    &-detalles{
+        p{
+            font-weight:$bold;
+        }
+        span{
+            font-weight: $thin;
+        }
+        select{
+            appearance: initial;
+            padding: .5rem 1rem;
+            border-radius: .3rem;
+            text-align: center;
+            cursor: pointer;
+        }
+    }
+    
+    &-opciones{
+        width: 100%;
+    }
+    
+    &-seleccionar{
+        button{
+            display: block;
+            width: 100%;
+            margin:1rem auto;
+            padding: .7rem 3rem;
+            border-radius: .3rem;
+            border:.2rem solid $claro;
+            color: $claro;
+            font-weight:$bold ;
+            cursor: pointer;
+            background-color: transparent;
+
+            &:hover{
+                border:.2rem solid $amarillo;
+                color: $amarillo;
+            }
+        }
+    }
+}

@@ -1,0 +1,264 @@
+{
+    "adornos": [
+        {
+            "id": "adornos_1",
+            "nombre": "globos regulares",
+            "detalles": "100 globos regulares",
+            "piezas": 100,
+            "cantidad": 1,
+            "precio": 450
+        },
+        {
+            "id": "adornos_2",
+            "nombre": "globos spaguetti",
+            "detalles": "70 globos spaguetti",
+            "piezas": 70,
+            "cantidad": 1,
+            "precio": 450
+        },
+        {
+            "id": "adornos_3",
+            "nombre": "globos temática de marvel: End-Game",
+            "detalles": "personajes de la pelicula End Game de marvel",
+            "piezas": 30,
+            "cantidad": 1,
+            "precio": 400
+        },
+        {
+            "id": "adornos_4",
+            "nombre": "globos temática de marvel: Guardianes",
+            "detalles": "personajes de los guardianes de la galaxia",
+            "piezas": 30,
+            "cantidad": 1,
+            "precio": 400
+        },
+        {
+            "id": "adornos_5",
+            "nombre": "globos temática DC: Suicide squad",
+            "detalles": "personajes de la peliculas suicide-squad",
+            "piezas": 30,
+            "cantidad": 1,
+            "precio": 400
+        },
+        {
+            "id": "adornos_6",
+            "nombre": "globos temática de CD: Liga",
+            "detalles": "personajes de la liga de la justicia",
+            "piezas": 30,
+            "cantidad": 1,
+            "precio": 400
+        },
+        {
+            "id": "adornos_7",
+            "nombre": "globos personalizados",
+            "detalles": "globos regulares con grabados personalizados",
+            "piezas": 50,
+            "cantidad": 1,
+            "precio": 400
+        },
+        {
+            "id": "adornos_8",
+            "nombre": "floreros",
+            "detalles": "floreros de vidrio con ramos de 12 rosas plásticas",
+            "piezas": 20,
+            "cantidad": 1,
+            "precio": 500
+        }
+    ],
+
+    "bebidas": [
+        {
+            "id": "bebidas_1",
+            "nombre": "Bebidas infantiles: Boing",
+            "detalles": "Caja de 25 pz(Presentaciones de 250ml)",
+            "piezas": 1,
+            "cantidad": 1,
+            "precio": 200
+        },
+        {
+            "id": "bebidas_2",
+            "nombre": "Bebidas infantiles: Refrescos",
+            "detalles": "Caja de 25 pz(Presentaciones de 250ml)",
+            "piezas": 1,
+            "cantidad": 1,
+            "precio": 250
+        },
+        {
+            "id": "bebidas_3",
+            "nombre": "bebidas infantiles:  PauPau",
+            "detalles": "Caja de 25 pz(Presentaciones de 250ml)",
+            "piezas": 1,
+            "cantidad": 1,
+            "precio": 190
+        },
+        {
+            "id": "bebidas_4",
+            "nombre": "bebidas generales: Refrescos",
+            "detalles": "Caja de referescos 15pz (Presentaciones de 2.5L)",
+            "piezas": 1,
+            "cantidad": 1,
+            "precio": 300
+        },
+        {
+            "id": "bebidas_5",
+            "nombre": "bebidas generales: Aguas",
+            "detalles": "Lote de 10 Litros de aguas de sabores (Jamaica, horchata, limon, frutas)",
+            "piezas": 1,
+            "cantidad": 1,
+            "precio": 250
+        },
+        {
+            "id": "bebidas_6",
+            "nombre": "bebidas adultos: Cerveza",
+            "detalles": "Cartón de cerveza 12pz (Caguama)",
+            "piezas": 1,
+            "cantidad": 1,
+            "precio": 450
+        },
+        {
+            "id": "bebidas_7",
+            "nombre": "bebidas adultos: Cerveza",
+            "detalles": "Cartón de cerveza 25pz (Ampolleta)",
+            "piezas": 1,
+            "cantidad": 1,
+            "precio": 250
+        },
+        {
+            "id": "bebidas_8",
+            "nombre": "Bebidas adultos: Tequila",
+            "detalles": "Caja de Tequilas de un Litro 3pz (Don julio, corralejo, centenario)",
+            "piezas": 1,
+            "cantidad": 1,
+            "precio": 1400
+        },
+        {
+            "id": "bebidas_9",
+            "nombre": "bebidas adultos: Vodka y Ron",
+            "detalles": "Caja de Vodka y Ron de un Litro 2pz c/u (absolute, zaverich, bacardi, barcelo )",
+            "piezas": 1,
+            "cantidad": 1,
+            "precio": 2000
+        }
+    ],
+
+    "alimentos" :[
+        {
+            "id": "alimentos_1",
+            "nombre": "Cremas",
+            "detalles": "Lote de platillos para 20 personas por crema a gusto de cliente",
+            "piezas": 1,
+            "cantidad": 1,
+            "precio": 400
+        },
+        {
+            "id": "alimentos_2",
+            "nombre": "Sopas",
+            "detalles": "Lote de platillos para 20 personas por sopa a gusto de cliente",
+            "piezas": 1,
+            "cantidad": 1,
+            "precio": 400
+        },
+        {
+            "id": "alimentos_3",
+            "nombre": "Mole",
+            "detalles": "Lote de platillos para 30 personas",
+            "piezas": 1,
+            "cantidad": 1,
+            "precio": 600
+        },
+        {
+            "id": "alimentos_4",
+            "nombre": "Pozole",
+            "detalles": "Lote de platillos para 30 personas",
+            "piezas": 1,
+            "cantidad": 1,
+            "precio": 600
+        },
+        {
+            "id": "alimentos_5",
+            "nombre": "Tacos de guisado",
+            "detalles": "Lote de 60 tacos (Alambre, tortas de pollo, chicharron salsa verde, carne enchilada)",
+            "piezas": 1,
+            "cantidad": 1,
+            "precio": 600
+        },
+        {
+            "id": "alimentos_6",
+            "nombre": "Taquiza",
+            "detalles": "Lote de 60 tacos (suadero, longaniza, pastor, campechanos)",
+            "piezas": 1,
+            "cantidad": 1,
+            "precio": 900
+        }
+    ],
+
+    "postres":[
+        {
+            "id": "postres_1",
+            "nombre": "Nieves",
+            "detalles": "Lote de 25 vasos de 250ml (5 de c/u Fresa, Mango, café, limón, naranja)",
+            "piezas": 1,
+            "cantidad": 1,
+            "precio": 200 
+        },
+        {
+            "id": "postres_2",
+            "nombre": "Pastel",
+            "detalles": "Pastel para 25 personas (Sabor a gusto del cliente)",
+            "piezas": 1,
+            "cantidad": 1,
+            "precio": 400 
+        },
+        {
+            "id": "postres_3",
+            "nombre": "Pastel 2 pisos",
+            "detalles": "Pastel 2 pisos para 50 personas (sabor a gusto del cliente)",
+            "piezas": 1,
+            "cantidad": 1,
+            "precio": 600 
+        },
+        {
+            "id": "postres_4",
+            "nombre": "gelatinas",
+            "detalles": "Lote de 25 vasos de 250ml (5 de c/u Fresa, Mango, café, limón, naranja)",
+            "piezas": 1,
+            "cantidad": 1,
+            "precio": 200 
+        }
+    ],
+
+    "shows" :[
+        {
+            "id": "shows_1",
+            "nombre": "sonido",
+            "detalles": "1 Hr de sonido con gran lista de reproducción",
+            "piezas": 1,
+            "cantidad": 1,
+            "precio": 1200
+        },
+        {
+            "id": "shows_2",
+            "nombre": "Payasos",
+            "detalles": "45 Min show de payasos",
+            "piezas": 1,
+            "cantidad": 1,
+            "precio": 1000
+        },
+        {
+            "id": "shows_3",
+            "nombre": "Botargas",
+            "detalles": "45 Min animación con botargas",
+            "piezas": 1,
+            "cantidad": 1,
+            "precio": 1300
+        },
+        {
+            "id": "shows_4",
+            "nombre": "Imitadores",
+            "detalles": "45 Min show de imitadores",
+            "piezas": 1,
+            "cantidad": 1,
+            "precio": 1500 
+        }
+    ]
+}

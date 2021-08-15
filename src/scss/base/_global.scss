@@ -1,0 +1,73 @@
+@import './variables';
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: $regular;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: $claro;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+img {
+    max-width: 100%;
+}
+p{
+    margin: 0;
+    line-height: 1.4;
+}
+.contenedor{
+    width: 90%;
+    max-width: 71rem;
+    margin: 0 auto;
+}
+
+.titulos-seccion{
+    text-transform: capitalize;
+    text-align: center;
+    color: $azul-oscuro;
+}
+
+.mostrar{
+    display: block;
+}
+
+.ocultar{
+    display: none!important;
+}
+
+.btn{
+    display: block;
+    padding: .7rem .4rem;
+    text-transform: uppercase;
+    font-weight: $bold;
+    font-size: .7rem;
+    border: none;
+    border-radius: .3rem;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+

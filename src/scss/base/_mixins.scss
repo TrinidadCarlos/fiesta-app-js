@@ -1,0 +1,23 @@
+@mixin phone{
+    @media (min-width: $telefono){
+        @content;
+    }
+}
+
+@mixin tablet{
+    @media (min-width: $tableta){
+        @content;
+    }
+}
+
+@mixin laptop{
+    @media (min-width: $laptop){
+        @content;
+    }
+}
+
+@mixin desktop{
+    @media (min-width: $escritorio){
+        @content;
+    }
+}

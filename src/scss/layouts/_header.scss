@@ -1,0 +1,60 @@
+.header{
+    padding: 2rem 0;
+    background-color: $azul-secundario;
+
+    .titulo{
+        margin:0 auto 1rem auto;
+        text-align: center;
+        text-transform: capitalize;
+        color: $claro;
+    }
+    
+    .header-nav{
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .nav-items{
+        max-width: 50rem;
+        margin: 0 auto;
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr));
+        gap: .8rem;
+        
+        .nav-item{
+            position: relative;
+            background-color: $azul-primario;        
+            padding: .5rem 0;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: $claro;
+            border: .1rem solid $claro;
+            border-radius: .3rem;
+            transition: all .3s ease-in-out;
+
+            &:hover{
+                color: $azul-primario;
+                background-color: $claro;
+                transform: scale(1.08);
+            }
+        }
+    }
+}
+
+.active{
+    box-shadow: .1rem .2rem .2rem $amarillo;
+    background-color: $azul-secundario !important;
+}
+.notificacion::after{
+    content: "";
+    display: block;
+    width: .6rem;
+    padding: .6rem;
+    position: absolute;
+    top: -.6rem;
+    right: -.6rem;
+    border-radius: 50%;
+    border: .2rem solid $amarillo;
+    background-color: $rojo;
+}

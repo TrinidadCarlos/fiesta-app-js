@@ -1,0 +1,17 @@
+.webp .ilustracion{
+    background:  url('../img/fondo.webp') no-repeat center/cover;
+}
+.no-webp .ilustracion{
+    background: url('../img/fondo.jpg') no-repeat center/cover ;
+}
+
+.ilustracion{
+    width: 100%;
+    height: 25rem;
+    
+    @include tablet{
+        width: 30%;
+        // min-height: 100vh;
+        height: inherit;
+    }
+}

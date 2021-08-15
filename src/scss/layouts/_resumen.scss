@@ -1,0 +1,70 @@
+.contenedor-card-resumen{
+        max-width: 40rem;
+        margin: 0 auto;
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(auto-fill, minmax(15rem , 1fr));
+}
+
+.card-resumen{
+    margin: 0 auto 2rem auto;
+    padding:1rem;
+    border-bottom: .2rem solid $azul-oscuro;
+    border-radius: .5rem;
+    background-color: $azul-claro;
+
+    .resumen-titulo{
+        margin: 1rem 0;
+        padding: .5rem 0;
+        text-align: center;
+        color: $claro;
+        text-transform: uppercase;
+        background-color: $azul-oscuro;
+    }
+
+    .resumen-listado{
+        li > p{
+            font-weight: $bold;
+            color: $azul-oscuro;
+            font-size: .9rem;
+            line-height: 2;
+
+            span{
+                border-bottom: .1rem solid $azul-oscuro;
+                color: $azul-secundario;
+            }
+        }
+
+        .precio-total{
+            background-color: $amarillo;
+            text-align: end;
+        }
+    }
+        
+    .resumen-acciones{
+        margin-top: 1rem;
+        @include tablet {
+            display: flex;
+        }
+        & > button{
+            margin: auto;
+            color: $claro;
+            text-shadow: 0 0 .2rem $azul-oscuro;
+        }
+        & > button:nth-child(even){
+            margin-top: 1rem;
+        }
+        @include tablet{
+           button:nth-child(even){
+                margin-top: 0;
+            }
+        }
+
+        .btn-agregar{
+            background-color: $verde;
+        }
+        .btn-remover{
+            background-color: $rojo;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.contenido-principal{
+    width: 100%;
+    background-color: $claro;
+    
+    @include tablet{
+        display: flex;
+    }
+}
+
+.main{
+    width: 100%;
+    padding-bottom: 2rem ;
+    min-height: 100vh;
+}
