@@ -1,16 +1,16 @@
 .contenedor-card-resumen{
-        max-width: 40rem;
-        margin: 0 auto;
-        display: grid;
-        gap: 1rem;
-        grid-template-columns: repeat(auto-fill, minmax(15rem , 1fr));
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(15rem , 1fr));
+    max-width: 40rem;
+    margin: 0 auto;
 }
 
 .card-resumen{
     margin: 0 auto 2rem auto;
     padding:1rem;
-    border-bottom: .2rem solid $azul-oscuro;
     border-radius: .5rem;
+    box-shadow: 0 .2rem 1rem $azul-oscuro;
     background-color: $azul-claro;
 
     .resumen-titulo{

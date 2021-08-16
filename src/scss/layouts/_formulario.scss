@@ -1,0 +1,72 @@
+.formulario{
+    max-width: 40rem;
+    padding: 1rem;
+    border-radius:.3rem ;
+    box-shadow: 0 .5rem 1rem $azul-oscuro;
+    @include tablet{
+        width: 70%;
+    }
+    margin: auto;
+
+    legend{
+        margin: 1rem auto;
+        text-transform: capitalize;
+        font-weight: $bold;
+        color: $azul-oscuro;
+    }
+
+    .campos{
+        label{
+            display: block;
+            margin-bottom: .8rem;
+            text-transform: capitalize;
+            font-weight: $bold;
+            color: $azul-oscuro;
+        }
+        input, textarea{
+            margin-bottom: .8rem;
+            width: 100%;
+            padding: .5rem;
+            border: none;
+            border-radius: .3rem;
+            appearance: none;
+            &:focus{
+                outline:$azul-primario solid .2rem;
+                color: $azul-oscuro;
+            }
+        }
+        textarea{
+            resize: none;
+            height: 10rem;
+        }
+    }
+
+    .campos-date{
+        display: grid;
+        gap: .5rem;
+        grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    }
+
+    .selecciones{
+        width: 0;
+        height: 0;
+        border: none;
+        resize: none;
+        background-color: transparent;
+    }
+    
+
+    .submit-form{
+        input[type = "submit"]{
+            width: 70%;
+            margin: 1rem auto;
+            color: $claro;
+            background-color: $azul-oscuro;
+            &:hover{
+                color: $azul-oscuro;
+                background-color: $azul-primario;
+            }
+        }
+    }
+
+}

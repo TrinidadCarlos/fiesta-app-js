@@ -45,24 +45,39 @@
                     </div>
 
                     <!-- FORMULARIO -->
-                    <form action="" id="formulario">
+                    <form class="formulario ocultar" id="formulario">
+                        <legend>Complete el formulario para confirmar</legend>
                         <div class="campos">
                             <label for="nombre">Nombre:</label>
-                            <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre">
+                            <input type="text" class="campo" name="nombre" id="nombre" placeholder="Ingresa tu nombre" tabindex="1">
                         </div>
 
                         <div class="campos">
                             <label for="correo">Correo:</label>
-                            <input type="text" name="correo" id="correo" placeholder="Ej:coreo@correo.com">
+                            <input type="text" class="campo" name="correo" id="correo" placeholder="Ej:coreo@correo.com" tabindex="2">
                         </div>
 
                         <div class="campos">
                             <label for="mensaje">Mensaje:</label>
-                            <input type="text" name="mensaje" id="mensaje" placeholder="Dejanos tu duda o comentario!">
+                            <textarea class="campo" name="mensaje" id="mensaje" placeholder="Dejanos tu duda o comentario!" tabindex="3"> </textarea>
                         </div>
 
+                        <div class="campos-date">
+                            <div class="campos">
+                                <label for="fecha">Fecha para el servicio:</label>
+                                <input type="date" class="campo" name="fecha" id="fecha" tabindex="4">
+                                <small id="aviso">Elegir una fecha con mínimo 3 días de anticipación</small>
+                            </div>
+                            <div class="campos">
+                                <label for="hora">Hora:</label>
+                                <input type="time" class="campo" name="hora" id="hora" tabindex="5">
+                            </div>
+                        </div>
+
+                        <textarea name="selecciones" id="selecciones" class="selecciones"></textarea>
+                            
                         <div class="submit-form">
-                            <input type="submit" value="Confirmar servicio">
+                            <input type="submit" class="btn" id="confirmarServicios" value="Confirmar servicio" tabindex="6">
                         </div>
                     </form>
                 </section>
