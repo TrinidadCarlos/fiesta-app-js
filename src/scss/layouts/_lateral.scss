@@ -8,10 +8,10 @@
 .ilustracion{
     width: 100%;
     height: 25rem;
+    box-shadow: .4rem 0 .5rem $azul-primario;
     
     @include tablet{
         width: 30%;
-        // min-height: 100vh;
         height: inherit;
     }
 }
